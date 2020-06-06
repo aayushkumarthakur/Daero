@@ -16,8 +16,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="123dp"
         android:text="Show Toast" />
 
     <EditText
@@ -38,4 +38,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="330dp"
         android:text="Send Data To Next Activity" />
+
+    <Button
+        android:id="@+id/btnShareToOtherApps"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="111dp"
+        android:text="Share to other platforms" />
 </RelativeLayout>
