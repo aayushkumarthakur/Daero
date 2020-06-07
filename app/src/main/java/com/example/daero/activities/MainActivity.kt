@@ -1,10 +1,11 @@
-package com.example.daero
+package com.example.daero.activities
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.daero.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -34,12 +35,10 @@ class MainActivity : AppCompatActivity() {
             intent.type = "text/plain"
 
             startActivity(Intent.createChooser(intent, "Share to :"))
-
-
         }
 
         btnRecyclerViewDemo.setOnClickListener {
-            val intent = Intent(this,HobbiesActivity::class.java)
+            val intent = Intent(this, HobbiesActivity::class.java)
             startActivity(intent)
         }
     }

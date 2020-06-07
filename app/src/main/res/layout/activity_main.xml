@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:padding="10dp">
+    android:padding="10dp"
+    tools:context="com.example.daero.activities.MainActivity">
 
 
     <Button
@@ -28,7 +27,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="198dp"
         android:ems="10"
-        android:hint="Enter your Message"/>
+        android:hint="Enter your Message" />
 
     <Button
         android:id="@+id/btnSendMsgToNextActivity"

@@ -1,8 +1,9 @@
-package com.example.daero
+package com.example.daero.activities
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import com.example.daero.R
 import kotlinx.android.synthetic.main.activity_second.*
 
 class SecondActivity  : AppCompatActivity() {
